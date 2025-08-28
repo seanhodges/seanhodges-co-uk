@@ -1,16 +1,6 @@
 # Sean Hodges - Portfolio Website
 
-A modern, responsive portfolio website built with Vue.js 3, Vite, and Tailwind CSS, showcasing my professional experience as a Lead Software Engineer.
-
-## 🚀 Features
-
-- **Modern Tech Stack**: Built with Vue 3 (Composition API), Vite, and Tailwind CSS
-- **Responsive Design**: Mobile-first approach ensuring perfect display across all devices
-- **Smooth Animations**: Engaging hover effects and smooth scrolling navigation
-- **Component Architecture**: Modular Vue components for easy maintenance
-- **Centralized Data Management**: All content managed in a single `data.js` file
-- **Professional Theme**: Clean design with custom red (#cc0000) accent color
-- **Performance Optimized**: Fast loading with Vite's optimized build process
+A modern, responsive website built with Vue.js 3, Vite, and Tailwind CSS.
 
 ## 🛠️ Technologies Used
 
@@ -20,26 +10,6 @@ A modern, responsive portfolio website built with Vue.js 3, Vite, and Tailwind C
 - **Font**: Inter (Google Fonts)
 - **Icons**: Heroicons SVG icons
 - **Deployment**: GitHub Pages ready
-
-## 📁 Project Structure
-
-```
-src/
-├── assets/                 # Static assets
-├── components/            # Vue components
-│   ├── TheHeader.vue     # Navigation header
-│   ├── MeSection.vue     # Hero/intro section
-│   ├── SkillsSection.vue # Skills grid
-│   ├── ExperienceSection.vue # Work timeline
-│   ├── ProjectsSection.vue   # Project showcase
-│   ├── PhilosophySection.vue # Development philosophy
-│   ├── InterestsSection.vue  # Personal interests
-│   └── TheFooter.vue     # Footer with links
-├── App.vue               # Main app component
-├── main.js              # App entry point
-├── index.css            # Global styles & Tailwind
-└── data.js              # Centralized content data
-```
 
 ## 🚀 Getting Started
 
@@ -78,13 +48,7 @@ npm run dev
 
 ### Content Management
 
-All website content is centralized in `src/data.js`. Update this file to modify:
-
-- Personal information and social links
-- Skills and technologies
-- Work experience
-- Project details
-- Philosophy and interests
+All website content is centralized in `src/data.js`.
 
 ### Styling
 
@@ -105,46 +69,6 @@ Each section is a separate Vue component. Components are:
 - **Styled with Tailwind CSS** for consistency
 - **Accessible** with proper semantic HTML
 
-## 📱 Responsive Design
-
-The website is optimized for all screen sizes:
-
-- **Mobile**: 320px and up
-- **Tablet**: 768px and up  
-- **Desktop**: 1024px and up
-- **Large Desktop**: 1280px and up
-
-## 🌐 Deployment
-
-### GitHub Pages
-
-1. Build the project:
-```bash
-npm run build
-```
-
-2. Deploy the `dist` folder to your hosting service.
-
-### Netlify/Vercel
-
-Connect your GitHub repository to Netlify or Vercel for automatic deployments:
-
-- **Build Command**: `npm run build`
-- **Publish Directory**: `dist`
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🤝 Contributing
 
 While this is a personal portfolio, suggestions and improvements are welcome! Please feel free to open an issue or submit a pull request.
-
-## 📧 Contact
-
-- **LinkedIn**: [linkedin.com/in/sean-hodges](https://www.linkedin.com/in/sean-hodges/)
-- **GitHub**: [github.com/your-profile](https://github.com/your-profile)
-
----
-
-Built with ❤️ by Sean Hodges
