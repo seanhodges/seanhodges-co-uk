@@ -8,11 +8,10 @@ export const profile = {
 };
 
 export const skills = {
-  languages: ["Java", "Kotlin", "Python", "TypeScript", "JavaScript", "C++"],
+  languages: ["Java", "Kotlin", "Python", "TypeScript", "JavaScript", "Some C++"],
   frameworks: ["Spring Boot", "Node.js", "Express", "React", "Microservices"],
-  tools: ["Large Language Models (LLMs)", "AI-Assisted Coding", "Vector Databases", "Python (google-generativeai)"],
-  platforms: ["AWS", "Google Cloud Platform (GCP)", "Kubernetes", "Microservices", "Cloudflare"],
-
+  tools: ["AI-Assisted Coding", "Vector Databases", "Generative AI", "Docker and LXC"],
+  platforms: ["AWS", "Google Cloud Platform", "Kubernetes", "Microservices"],
 };
 
 export const experience = [
@@ -22,12 +21,12 @@ export const experience = [
     location: "Shoreditch, London",
     dates: "2019 - Present",
     duties: [
-      "Spearheaded the architectural design and technical strategy for the API integration platform, focusing on building scalable, resilient, and maintainable B2B2B / B2B2C international payments solutions for banks, financial businesses and other large businesses.",
-      "Launched key partnerships including Morgan Stanley, Google, Nubank, Xero and Emburse.",
-      "Designed the API standards, product roadmap, and security strategies that supported these deals.",
+      "Architectural Leadership: Led the architectural design and technical strategy for an API integration platform, creating scalable and resilient international payment solutions for major financial and business clients.",
+      "Launched key strategic partnerships; including Morgan Stanley, Google, Nubank, Xero and Emburse.",
+      "Designed API standards, a long-term product roadmap, and security strategies, including bespoke solutions for non-financial industries.",
       "Mentored, coached, and led several integration platform teams in the UK and Estonia, fostering a culture of technical excellence, continuous improvement, and product ownership.",
       "Championed the adoption of AI-assisted coding tools and modern development practices, measurably improving team velocity and code quality.",
-      "Drove key technical decisions in evolving the platform's microservices architecture, leveraging Kafka for robust, asynchronous event-driven communication between services."
+      "Drove key decisions to evolve the platform's microservices architecture, implementing a centralized API gateway and enhancing its security framework."
     ],
   },
   {
@@ -36,10 +35,11 @@ export const experience = [
     location: "Shoreditch, London",
     dates: "2016 - 2019",
     duties: [
-      "Scaled the Business team from 4 engineers and 1 product manager to a 'Business Tribe' comprising 14 engineers in two international offices.",
+      "Scaled the Business team from 4 engineers and 1 product manager to a 'Business Tribe' comprising 14 engineers across 3 teams in two international offices.",
       "Served as the principal architect for the multi-user access feature, a critical component for Wise's successful entry into the B2B international payment market.",
       "Co-developed the Batch Payments product, a high-volume, bulk payment solution processing millions of pounds in payments for hundreds of businesses monthly.",
-      "Operated in a highly autonomous team, collaborating directly with product managers, designers, and customers to define strategy and execute against key performance indicators (KPIs)."
+      "Operated in a highly autonomous team, collaborating directly with product managers, designers, and customers to define strategy and execute against key performance indicators (KPIs).",
+      "Highly hands-on technical role with extensive experience with Java, Spring Boot, Postgres/MariaDB and Kafka. "
     ],
   },
   {
@@ -81,10 +81,9 @@ export const projects = [
     title: "Wise Platform API Integration",
     image: "assets/wise-api.png",
     challenge: "Build a scalable, resilient B2B2B/B2B2C international payments platform that could support major enterprise partnerships and handle millions of transactions.",
-    role: "As Senior Engineering Lead, I spearheaded the architectural design, led distributed teams across UK and Estonia, and drove technical strategy for microservices evolution using Kafka for event-driven communication.",
+    role: "As Senior Engineering Lead, I spearheaded the architectural design, led distributed teams across UK and Estonia, and drove technical strategy for the evolution from product to platform.",
     outcome: "Successfully launched partnerships with Morgan Stanley, Google, Nubank, Xero and Emburse, while improving team velocity through AI-assisted coding tools and modern development practices.",
-    liveUrl: "https://wise.com/platform",
-    repoUrl: "#",
+    linkUrl: "https://wise.com/platform",
   },
   {
     title: "Wise Business Multi-User Access & Batch Payments",
@@ -92,17 +91,15 @@ export const projects = [
     challenge: "Scale the business team and develop critical B2B features including multi-user access and high-volume bulk payment processing for enterprise clients.",
     role: "As Engineering Lead, I scaled the team from 4 to 14 engineers, architected the multi-user access feature, and co-developed the Batch Payments product processing millions of pounds monthly.",
     outcome: "Enabled Wise's successful entry into the B2B international payment market and created a platform processing hundreds of business payments monthly worth millions of pounds.",
-    liveUrl: "https://wise.com/business",
-    repoUrl: "#",
+    linkUrl: "https://wise.com/gb/blog/send-batch-payments",
   },
   {
     title: "EasyBuild Cross-Media Advertising Platform",
     image: "assets/wav2-eb.png",
     challenge: "Create a new cross-media advertising product for corporate agencies with automated digital ad creation capabilities.",
     role: "Led the greenfield development using Node.js and Angular2 stack, implemented a scriptable HTML creative building engine, and introduced Kanban and Continuous Delivery practices.",
-    outcome: "Delivered a successful product that automated digital ad creation for corporate agencies, improving team agility and product quality through modern development practices.",
-    liveUrl: "#",
-    repoUrl: "#",
+    outcome: "Delivered a successful product that automated digital ad creation for corporate agencies, improving team agility and product quality through modern development practices. Joined the startup as a founding engineer and materially contributed to the sale of the company to a major software house (Miles 33)",
+    linkUrl: "https://www.miles33.com/section/202/wave-2",
   }
 ];
 

@@ -15,6 +15,7 @@
 </template>
 
 <script setup>
+// It would be nice to import these dynamically based on some priority-based ordering...
 import TheHeader from './components/TheHeader.vue'
 import MeSection from './components/MeSection.vue'
 import SkillsSection from './components/SkillsSection.vue'

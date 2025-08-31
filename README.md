@@ -9,7 +9,7 @@ A modern, responsive website built with Vue.js 3, Vite, and Tailwind CSS.
 - **Styling**: Tailwind CSS 3.4
 - **Font**: Inter (Google Fonts)
 - **Icons**: Heroicons SVG icons
-- **Deployment**: GitHub Pages ready
+- **Deployment**: S3 and CloudFront (Migrated from GCP)
 
 ## 🚀 Getting Started
 
