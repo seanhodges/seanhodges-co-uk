@@ -19,15 +19,15 @@
             :class="index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''"
           >
             <div 
-              class="relative overflow-hidden"
+              class="relative overflow-hidden bg-gray-100"
               :class="index % 2 === 1 ? 'lg:col-start-2' : ''"
             >
               <img 
                 :src="project.image" 
                 :alt="project.title"
-                class="w-full h-64 lg:h-full object-cover hover:scale-105 transition-transform duration-500"
+                class="w-full h-64 lg:h-full object-contain hover:scale-105 transition-transform duration-500"
               >
-              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
             </div>
             
             <div class="p-8 lg:p-12 flex flex-col justify-center">
